@@ -33,3 +33,15 @@ color: #fff;
     background-image: url("../Images/main.jpg");
    
 }
+.faq-image{
+    width: 80%;
+    border-radius: 100%;
+    margin-left: 80px;
+}
+.faq-icons{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.faq-heading{
+    padding-top: 80px;
+}

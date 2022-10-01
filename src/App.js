@@ -6,18 +6,20 @@ import Magician from './Components/Magician';
 import Purpose from './Components/Purpose';
 import Numbers from './Components/Numbers';
 import Holders from './Components/Holders';
-import Main from './Components/Main';
+// import Main from './Components/Main';
+import Faq from './Components/Faq';
 
 function App() {
   return (
     <div className="App">
       <Headernav/>
       <Navbar/>
-      <Main/>
+      {/* <Main/> */}
       <Magician/>
       <Purpose/>
       <Numbers/>
       <Holders/>
+      <Faq/>
     </div>
   );
 }

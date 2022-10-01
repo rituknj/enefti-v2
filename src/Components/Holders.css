@@ -1,6 +1,10 @@
 .accordion{
     background-color: #000 !important;
     border-color: none !important;
+    border-width: 0px !important;
+    border-color: transparent !important;
+    border-color: black !important;
+    --bs-accordion-border-color: black !important;
 }
 .accordion-item{
     background-color: #000 !important;
@@ -9,12 +13,20 @@
 .accordion-header{
     background-color: #000 !important;
     color: #fff !important;
+    border-bottom: 2px solid #fff;
 }
 .accordion-button{
     background-color: #000 !important;
     color: #fff !important;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #000 !important;
 }
 .accordion-button.collapsed{
     border-bottom: 2px solid #fff;
+}
+.holder-image{
+    width: 80%;
+    margin-left: 50px;
+}
+.holder-heading{
+    padding-top: 50px;
 }

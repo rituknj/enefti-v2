@@ -7,7 +7,7 @@ export default function Holders() {
     <section style={{background:'#000000', color:'#fff'}}>
         <div className='container'>
             <div className='row'>
-                <h1>Holder Benefits</h1>
+                <h1 className='holder-heading'>Holder Benefits</h1>
                 <div className='col-lg-6 col-md-6 col-sm-12 col-12'>
                 <div className="accordion" id="accordionExample">
   <div className="accordion-item">
@@ -46,12 +46,13 @@ export default function Holders() {
       </div>
     </div>
   </div>
+  
 </div>
 
                 </div>
                 <div className='col-lg-6 col-md-6 col-sm-12 col-12'>
                     <div>
-                        <img src={Image4} alt='' style={{width:'100%'}}/>
+                        <img src={Image4} alt='' className='holder-image' style={{width:'100%'}}/>
                     </div>
 
                 </div>

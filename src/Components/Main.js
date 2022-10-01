@@ -7,11 +7,13 @@ export default function Main() {
   return (
     <section>
       <div className="">
-          <img src={Mainbackground} alt="" />
+          {/* <img src={Mainbackground} alt="" /> */}
       </div>
       <div className="container">
         <div className="row">
-          
+          <div>
+            
+          </div>
 
         </div>
 
