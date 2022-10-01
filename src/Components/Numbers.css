@@ -32,6 +32,14 @@
     .our-num{
         text-align: center;
     }
+ 
+    
+}
+@media screen and (max-width:800px) {
+    
+    .navbar-nav {
+         margin-left: 0px !important;
+    }
     
 }
 .number-image{
