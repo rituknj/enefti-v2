@@ -2,6 +2,8 @@ import React from "react";
 import Image4 from "../Images/Image-4.jpg";
 import "./Faq.css";
 import Icon1 from "../Images/Main-Client1.png";
+import Icon2 from "../Images/Main-Client4.png";
+import Icon3 from "../Images/Main-Client6.png";
 
 export default function Holders() {
   return (
@@ -122,19 +124,19 @@ export default function Holders() {
             <img src={Icon1} alt="" style={{ width: "80%" }} />
           </div>
           <div className="col-lg-2 col-md-2 col-sm-6 col-6">
-            <img src={Icon1} alt="" style={{ width: "80%" }} />
+            <img src={Icon2} alt="" style={{ width: "80%" }} />
+          </div>
+          <div className="col-lg-2 col-md-2 col-sm-6 col-6">
+            <img src={Icon3} alt="" style={{ width: "80%" }} />
           </div>
           <div className="col-lg-2 col-md-2 col-sm-6 col-6">
             <img src={Icon1} alt="" style={{ width: "80%" }} />
           </div>
           <div className="col-lg-2 col-md-2 col-sm-6 col-6">
-            <img src={Icon1} alt="" style={{ width: "80%" }} />
+            <img src={Icon2} alt="" style={{ width: "80%" }} />
           </div>
           <div className="col-lg-2 col-md-2 col-sm-6 col-6">
-            <img src={Icon1} alt="" style={{ width: "80%" }} />
-          </div>
-          <div className="col-lg-2 col-md-2 col-sm-6 col-6">
-            <img src={Icon1} alt="" style={{ width: "80%" }} />
+            <img src={Icon3} alt="" style={{ width: "80%" }} />
           </div>
         </div>
       </div>

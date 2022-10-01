@@ -8,6 +8,7 @@ import Numbers from './Components/Numbers';
 import Holders from './Components/Holders';
 // import Main from './Components/Main';
 import Faq from './Components/Faq';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Numbers/>
       <Holders/>
       <Faq/>
+      <Footer/>
     </div>
   );
 }

@@ -28,8 +28,13 @@
     }
     
 }
+@media screen and (max-width:540px) {
+    .our-num{
+        text-align: center;
+    }
+    
+}
 .number-image{
 color: #fff;
     background-image: url("../Images/main.jpg");
-   
 }

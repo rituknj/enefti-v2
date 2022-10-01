@@ -52,7 +52,7 @@ export default function Holders() {
                 </div>
                 <div className='col-lg-6 col-md-6 col-sm-12 col-12'>
                     <div>
-                        <img src={Image4} alt='' className='holder-image' style={{width:'100%'}}/>
+                        <img src={Image4} alt='' className='holder-image' />
                     </div>
 
                 </div>
