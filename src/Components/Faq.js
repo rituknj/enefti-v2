@@ -119,24 +119,24 @@ export default function Holders() {
         </div>
       </div>
       <div className="container">
-        <div className="row faq-icons">
-          <div className="col-lg-2 col-md-2 col-sm-6 col-6">
-            <img src={Icon1} alt="" style={{ width: "80%" }} />
+        <div className="faq-icons" >
+          <div className="icon">
+            <img src={Icon1} alt=""  />
           </div>
-          <div className="col-lg-2 col-md-2 col-sm-6 col-6">
-            <img src={Icon2} alt="" style={{ width: "80%" }} />
+          <div className="icon">
+            <img src={Icon2} alt=""  />
           </div>
-          <div className="col-lg-2 col-md-2 col-sm-6 col-6">
-            <img src={Icon3} alt="" style={{ width: "80%" }} />
+          <div className="icon">
+            <img src={Icon3} alt=""  />
           </div>
-          <div className="col-lg-2 col-md-2 col-sm-6 col-6">
-            <img src={Icon1} alt="" style={{ width: "80%" }} />
+          <div className="icon">
+            <img src={Icon1} alt=""  />
           </div>
-          <div className="col-lg-2 col-md-2 col-sm-6 col-6">
-            <img src={Icon2} alt="" style={{ width: "80%" }} />
+          <div className="icon">
+            <img src={Icon2} alt=""  />
           </div>
-          <div className="col-lg-2 col-md-2 col-sm-6 col-6">
-            <img src={Icon3} alt="" style={{ width: "80%" }} />
+          <div className="icon">
+            <img src={Icon3} alt=""  />
           </div>
         </div>
       </div>

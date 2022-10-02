@@ -27,10 +27,10 @@ export default function Footer() {
           <div className="col-lg-3 col-md-3 col-sm-12 col-12">
             <h5>Useful Links</h5>
             <div>
-            <ul id="menu-marketplace" class="menu"><li id="menu-item-6029" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6029"><a href="https://enefti.modeltheme.com/product-category/avid-lines/">Collectibles</a></li>
-<li id="menu-item-6030" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6030"><a href="https://enefti.modeltheme.com/product-category/azuki/">Photography</a></li>
-<li id="menu-item-6031" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6031"><a href="https://enefti.modeltheme.com/product-category/chimera-by-mpkoz/">Trading Cards</a></li>
-<li id="menu-item-6547" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6547"><a href="https://enefti.modeltheme.com/product-category/coolmans-universe/">Virtual Worlds</a></li>
+            <ul id="menu-marketplace" className="menu"><li id="menu-item-6029" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-6029"><a href="https://enefti.modeltheme.com/product-category/avid-lines/">Collectibles</a></li>
+<li id="menu-item-6030" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-6030"><a href="https://enefti.modeltheme.com/product-category/azuki/"><i className='fas fa-angle-double-right'>Photography</i></a></li>
+<li id="menu-item-6031" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-6031"><a href="https://enefti.modeltheme.com/product-category/chimera-by-mpkoz/">Trading Cards</a></li>
+<li id="menu-item-6547" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-6547"><a href="https://enefti.modeltheme.com/product-category/coolmans-universe/">Virtual Worlds</a></li>
 </ul>
             </div>
           </div>
@@ -49,7 +49,12 @@ export default function Footer() {
             <h5>Stay Informed By Newsletter</h5>
             <p>*Subscribe to our newsletter to receive early discount offers and updates.</p>
             <div>
-                <input placeholder="Enter your email" className="email" type='email'></input>
+            <div className="newsletter-footer">
+            <input className="email" type="email" name="EMAIL" placeholder="Enter your email" required=""/><br/>
+            <button type="submit" className="rippler rippler-default"><br/>
+            Subscribe<br/>
+            </button>
+            </div>
             </div>
           </div>
         </div>

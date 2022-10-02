@@ -50,5 +50,29 @@ color: #fff;
         margin-left: 50px;
         padding-top: 40px;
     }
+
+    
+}
+
+
+@media screen and (min-width:700px) {
+    .faq-icons{
+        display: flex;
+    }
+
+    /* .faq-icons img{
+        width: 80%;
+    } */
+}
+
+@media screen and (max-width:699px) {
+    .faq-icons{
+        display: flex;
+        overflow: auto;
+    }
+    .faq-icons img{
+        width: 8rem;
+        margin-right: 1rem;
+    }
     
 }
