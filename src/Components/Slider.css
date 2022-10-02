@@ -20,3 +20,13 @@
   .slider{
     background-color: black;
   }
+  /* @media screen and (min-width:700px) {
+  
+   
+   .swiper-slide img{
+       height: 24rem !important;
+       margin-top: 5rem !important;
+      }
+  
+
+  } */

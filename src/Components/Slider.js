@@ -8,6 +8,9 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
 import "./Slider.css";
+import Imageslide1 from "../Images/Image-1.jpg";
+import Imageslide2 from "../Images/Image-2.jpg";
+import Imageslide3 from "../Images/Image-3.jpg";
 
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
@@ -35,31 +38,31 @@ export default function Slider() {
       >
       
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <img src={Imageslide1} alt='' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+        <img src={Imageslide2} alt='' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+        <img src={Imageslide3} alt='' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+        <img src={Imageslide1} alt='' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+        <img src={Imageslide2} alt='' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+        <img src={Imageslide3} alt='' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+        <img src={Imageslide1} alt='' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+        <img src={Imageslide2} alt='' />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+        <img src={Imageslide3} alt='' />
         </SwiperSlide>
       </Swiper>
       </div>
