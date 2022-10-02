@@ -40,3 +40,17 @@
         padding-bottom: 20px;
     }    
 }
+@media screen and (max-width:320px) {
+    .holder-image{
+        padding-bottom: 20px;
+       
+    }    
+    .holder-heading{
+        text-align: center;
+    }
+}
+@media screen and (max-width:375px) {
+    .holder-heading{
+        text-align: center;
+    }    
+}

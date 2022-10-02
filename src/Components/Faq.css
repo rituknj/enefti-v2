@@ -47,7 +47,7 @@ color: #fff;
 }
 @media screen and (max-width:540px) {
     .faq-image{
-        margin-left: 50px;
+        margin-left: 42px;
         padding-top: 40px;
     }
 
@@ -73,6 +73,18 @@ color: #fff;
     .faq-icons img{
         width: 8rem;
         margin-right: 1rem;
+    }
+    
+}
+@media screen and (max-width:320px) {
+    .faq-heading{
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:375px) {
+    .faq-heading{
+        text-align: center;
     }
     
 }

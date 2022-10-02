@@ -85,3 +85,13 @@ ul {
     right: 13.5px;
     color: blue;
 }
+@media screen and (max-width:375px) {
+    .footer-para{
+        text-align: left;
+    } 
+}
+@media screen and (max-width:414px) {
+    .footer-para{
+        text-align: left;
+    } 
+}
