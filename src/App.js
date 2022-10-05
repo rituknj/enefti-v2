@@ -12,12 +12,14 @@ import Footer from './Components/Footer';
 // import Slider from "./Components/Slider";
 // import Toyslider from "./Components/Toyslider";
 import Timeline from "./Components/Timeline";
+import Nft from './Components/Nft';
 
 function App() {
   return (
     <div className="App">
       <Headernav/>
       <Navbar/>
+      <Nft/>
       {/* <Slider /> */}
       {/* <Main/> */}
       <Magician/>
