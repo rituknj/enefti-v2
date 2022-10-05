@@ -25,7 +25,7 @@
 }
 .holder-image{
     width: 80%;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-bottom: 30px;
 }
 .holder-heading{
@@ -53,5 +53,15 @@
 @media screen and (max-width:375px) {
     .holder-heading{
         text-align: center;
+    }    
+}
+@media screen and (max-width:412px) {
+    .holder-image{
+        margin-left: 40px;
+    }    
+}
+@media screen and (max-width:768px) {
+    .holder-image{
+        margin-left: 30px;
     }    
 }

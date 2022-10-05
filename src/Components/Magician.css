@@ -4,7 +4,7 @@
     font-weight: 700;
     color: #fff;
     padding: 18px 48px;
-    border-radius: 20px;
+    border-radius: 100px;
     border: none;
     margin-top: 100px;
     margin-left: 100px;
@@ -27,17 +27,20 @@
     padding-top: 70px;
     padding-bottom: 30px;
 }
+.magi-button{
+    text-align: end;
+}
 @media screen and (max-width:412px) {
-    .button-magi{
-        margin-left: 50px;
-    margin-top: 10px;
+    .magi-button{
+        /* margin-left: 10px; */
+    text-align: center;
     }
     .head-magi{
         text-align: center;
         font-size: 34px;
     }
-    
 }
+
 @media screen and (max-width:375px) {
     .button-magi{
         margin-left: 30px;
@@ -52,5 +55,10 @@
 @media screen and (max-width:320px) {
     .button-magi{
         margin-left: 9px;
+    }
+}
+@media screen and (max-width:768px) {
+    .button-magi{
+      padding: 21px 20px;
     }
 }

@@ -36,7 +36,7 @@ color: #fff;
 .faq-image{
     width: 80%;
     border-radius: 100%;
-    margin-left: 80px;
+    margin-left: 90px;
 }
 .faq-icons{
     padding-top: 80px;
@@ -50,10 +50,29 @@ color: #fff;
         margin-left: 42px;
         padding-top: 40px;
     }
-
-    
 }
-
+@media screen and (max-width:412px) {
+    .faq-image{
+        margin-left: 40px;
+        /* padding-top: 40px; */
+    }
+}
+@media screen and (max-width:768px) {
+    .faq-image{
+        margin-left: 20px;
+        /* padding-top: 40px; */
+    }
+}
+@media screen and (max-width:360px) {
+    .faq-imag2{
+        text-align: center;
+    }
+}
+@media screen and (max-width:393px) {
+    .faq-imag2{
+        text-align: center;
+    }   
+}
 
 @media screen and (min-width:700px) {
     .faq-icons{

@@ -16,6 +16,9 @@
     padding-bottom: 50px;
     font-family: "Raleway", sans-serif;
 }
+.our-num{
+    text-align: center;
+}
 @media screen and (max-width:390px) {
     .our-num{
         text-align: center;

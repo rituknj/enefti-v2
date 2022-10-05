@@ -8,3 +8,25 @@ span.vertical-timeline-element-icon.bounce-in{
 .vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns::before{
     color: red !important;
 }
+.timeline-head{
+    padding-top: 40px;
+}
+.vertical-timeline-element-date{
+    color: #000;
+    font-family: 'Raleway';
+    font-size: 20px !important;
+    font-weight: 400;
+    line-height: 32px;
+}
+.vertical-timeline-element-title{
+    color: rgb(201, 16, 120);
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-weight: 600;
+}
+.vertical-timeline-element-content p{
+    font-family: "Raleway";
+    font-size: 17px;
+    font-weight: 400;
+    color:#ffffff;
+}

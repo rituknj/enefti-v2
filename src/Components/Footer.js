@@ -9,8 +9,8 @@ export default function Footer() {
       <div className="container footer-bot">
         <div className="row footer">
           <div className="col-lg-3 col-md-3 col-sm-12 col-12">
-            <h4>Our Address</h4>
-            <p>
+            <h4 className="head1">Our Address</h4>
+            <p className="para-1">
               4 Grand Central Terminal New York, NY 10 City name, CA 90896 USA.
               contact@example.com
             </p>
@@ -25,7 +25,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-12 col-12">
-            <h5>Useful Links</h5>
+            <h5 className="head2">Useful Links</h5>
             <div>
             <ul id="menu-marketplace" className="menu"><li id="menu-item-6029" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-6029"><a href="https://enefti.modeltheme.com/product-category/avid-lines/">Collectibles</a></li>
 <li id="menu-item-6030" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-6030"><a href="https://enefti.modeltheme.com/product-category/azuki/"><i className='fas fa-angle-double-right'>Photography</i></a></li>
@@ -35,19 +35,19 @@ export default function Footer() {
             </div>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-12 col-12">
-            <h5>Our Policy</h5>
+            <h5 className="head3" >Our Policy</h5>
             <div>
                 <ul>
-                    <li>Help Center</li>
-                    <li>My Collections</li>
-                    <li>Platform Status</li>
-                    <li>Newsletter</li>
+                    <li className="para-1">Help Center</li>
+                    <li className="para-1">My Collections</li>
+                    <li className="para-1">Platform Status</li>
+                    <li className="para-1">Newsletter</li>
                 </ul>
             </div>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-12 col-12">
-            <h5>Stay Informed By Newsletter</h5>
-            <p>*Subscribe to our newsletter to receive early discount offers and updates.</p>
+            <h5 className="head4">Stay Informed By Newsletter</h5>
+            <p className="para-1">*Subscribe to our newsletter to receive early discount offers and updates.</p>
             <div>
             <div className="newsletter-footer">
             <input className="email" type="email" name="EMAIL" placeholder="Enter your email" required=""/><br/>
@@ -62,7 +62,7 @@ export default function Footer() {
       <div className="container">
         <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-                <p>Copyright by ModelTheme. All Rights Reserved.</p>
+                <p className="footer-para-1">Copyright by ModelTheme. All Rights Reserved.</p>
 
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
