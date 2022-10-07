@@ -35,12 +35,32 @@ export default function Navbar() {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">
-                    NFT Marketplace
+                    About
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">
-                    Mint NFT
+                    Features
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    How to Buy
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    How to Redeem
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    Roadmap
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    Socials
                   </a>
                 </li>
               </ul>
